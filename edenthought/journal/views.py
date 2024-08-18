@@ -206,7 +206,9 @@ def profile_management(request):
 
 @login_required(login_url='my-login')
 def delete_account(request):
+    
     if request.method == 'POST':
+        
         deleteUser = User.objects.get(username=request.user)
         
         deleteUser.delete()
