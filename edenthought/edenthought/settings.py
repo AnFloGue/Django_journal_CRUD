@@ -182,10 +182,9 @@ EMAIL_USE_TLS = 'True'
 '''
 
 EMAIL_HOST_USER = '' # - GMAIL email address
-EMAIL_HOST_PASSWORD = '' # - APP password
+EMAIL_HOST_PASSWORD = 'xxxxxxxxxxxxx' # - APP password
 
 DEFAULT_FROM_EMAIL = '' # - GMAIL email address
-
 '''
 
 
